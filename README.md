@@ -23,7 +23,7 @@ Este é um código programado em linguagem C++ tendo como objetivo simular uma p
 + `using namespace std;` - Retirando a necessidade de incluir std::
 
 ## Infromações do jogo
-```ruby
+```clike
 struct Jogodavelha {
 char* tabuleiro; //ponteiro
 char rodada; // X ou O
@@ -34,7 +34,7 @@ int pontuacaoDoO; // inicialização do O
 Struct criada para armazenas as infromações do jogo.
 
 ## Inicializar o Jogo
-```c_cpp
+``` clike
 void kumessarujogu(Jogodavelha& Jogodavelha) {
     Jogodavelha.tabuleiro = new char[9]{'1','2','3','4','5','6','7','8','9'};// alocação de memória para o tabuleiro
     //posições iniciadas 
