@@ -2,13 +2,13 @@
 **Projeto Computacional - Computação para Engenharia - Turma 01 - Professor Wesin Alves**
 
 # 📖 Membros do Grupo
-➣ ***Alex*** (
+➣ ***Alex Vinicius Fernandes Landim*** (Mat.: 242028299)
 
 ➣ ***Bruno Nicholas Marques da Silva*** (Mat.: 242014435)
 
-➣ ***Giovanna*** (
+➣ ***Giovana Loures Pereira*** (Mat.: 242023640)
 
-➣ ***Gisele*** (
+➣ ***Gisele Cristine Ribeiro de Carvalho*** (Mat.: 242014462)
 
 ➣ ***Mikael Vitor da Silva Leão*** (Mat.: 242014364)
 
