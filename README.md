@@ -23,13 +23,13 @@ Este é um código programado em linguagem C++ tendo como objetivo simular uma p
 + `using namespace std;` - Retirando a necessidade de incluir std::
 
 ## Infromações do jogo
-```
-`struct Jogodavelha {
+```ruby
+struct Jogodavelha {
 char* tabuleiro; //ponteiro
 char rodada; // X ou O
 int pontuacaoDoX; // pontuação do jogador X
 int pontuacaoDoO; // inicialização do O
-};`
+};
 ```
 Struct criada para armazenas as infromações do jogo.
 
