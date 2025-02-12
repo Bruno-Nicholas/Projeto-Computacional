@@ -23,7 +23,7 @@ Este é um código programado em linguagem C++ tendo como objetivo simular uma p
 + `using namespace std;` - Retirando a necessidade de incluir std::
 
 ## Infromações do jogo
-```c_cpp
+``` c_cpp
 struct Jogodavelha {
 char* tabuleiro; //ponteiro
 char rodada; // X ou O
