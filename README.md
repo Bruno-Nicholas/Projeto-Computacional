@@ -146,7 +146,7 @@ Função principal que **junta todas as funções procedimentos**.
 Para acessar o link do vídeo [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
 # 📊 Slides do projeto
-Para acessar os slide [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
+Para acessar os slides [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
 # 📌 Conclusão
 Neste projeto podemos **colocar em prática** tudo o que vimos durante o semestre nas aulas de Computação para Engenharia na Universidade de Brasília, além de entender como utilizar as ferramentas para otimizar os códigos e deixá-los mais eficientes. O código apresenta os conceitos de vetores, funções, arquvios e manipulação de entradas/saídas em C++.
