@@ -20,7 +20,7 @@ Este é um código programado em linguagem C++ tendo como objetivo **simular uma
 ## Códigos Iniciais:
 + `#include <iostream>` - Biblioteca padrão do C++.
 + `#include <fstream>` - Biblioteca para uso de arquivos.
-+ `using namespace std;` - Retirando a necessidade de incluir std:: em todos os linhas.
++ `using namespace std;` - Retirando a necessidade de incluir std:: em todas as linhas.
 
 ## Infromações do Jogo:
 ```cpp
@@ -140,7 +140,7 @@ int main() {
     return 0;
 }
 ```
-Função principal que **junta todas as funções procedimentos**.
+Função principal que **junta todas as funções e procedimentos**.
 
 # 📽️ Vídeo do Projeto
 Para acessar o link do vídeo [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
