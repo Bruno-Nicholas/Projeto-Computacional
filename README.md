@@ -3,9 +3,13 @@ Projeto Computacional - Computação para Engenharia - Turma 01 - Professor Wesi
 
 # Membros do Grupo
 *Alex* (
+
 *Bruno Nicholas Marques da Silva* (242014435)
+
 *Giovanna* (
+
 *Gisele* (
+
 *Mikael* (
 
 # Introdução
