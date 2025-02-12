@@ -13,7 +13,7 @@ Projeto Computacional - Computação para Engenharia - Turma 01 - Professor Wesi
 ➣ ***Mikael Vitor da Silva Leão*** (Mat.: 242014364)
 
 # 💡 Introdução
-Este é um código programado em linguagem C++ tendo como objetivo simular uma partida de jogo da velha entre duas pessoas. Armazenando o resultado de vitoria de cada jogador em um arquivo denominado pontuacoes.txt, desta forma possibilitando a comparação entre os jogadores mesmo jogando partidas em dias diferentes. O jogo só pode ser jogado com 2 jogadores localmente. O código foi completamente comentado a fim de ajudar na compreensão da forma como ele funciona.
+Este é um código programado em linguagem C++ tendo como objetivo **simular uma partida de jogo da velha entre duas pessoas**. Armazenando o resultado de vitória de cada jogador em um arquivo denominado **pontuacoes.txt**, desta forma possibilitando a comparação entre os jogadores **mesmo jogando partidas em dias diferentes**. O jogo só pode ser jogado **com 2 jogadores** localmente. O código foi completamente comentado a fim de ajudar na compreensão da forma como ele funciona.
 
 # 🔥 Códigos Importantes
 
@@ -23,7 +23,7 @@ Este é um código programado em linguagem C++ tendo como objetivo simular uma p
 + `using namespace std;` - Retirando a necessidade de incluir std::
 
 ## Infromações do Jogo
-```ruby
+```cpp
 struct Jogodavelha {
 char* tabuleiro; //ponteiro
 char rodada; // X ou O
@@ -34,7 +34,7 @@ int pontuacaoDoO; // inicialização do O
 Struct criada para armazenas as infromações do jogo.
 
 ## Inicializar o Jogo
-```ruby
+```cpp
 void kumessarujogu(Jogodavelha& Jogodavelha) {
     Jogodavelha.tabuleiro = new char[9]{'1','2','3','4','5','6','7','8','9'};// alocação de memória para o tabuleiro
     //posições iniciadas 
@@ -50,7 +50,7 @@ void liberarJogo(Jogodavelha& Jogodavelha) {
 Função para inicializar o jogo e procedimento que libera a memória alocada.
 
 ## Imprimindo o Tabuleiro
-```ruby
+```cpp
 void printabuleiro(const Jogodavelha& Jogodavelha) {
     for (int i = 0; i < 9; ++i) 
     {
@@ -65,7 +65,7 @@ void printabuleiro(const Jogodavelha& Jogodavelha) {
 Procedimento que imprime o tabuleiro do jogo.
 
 ## Verificando que ganhou ou se houve empate
-```ruby
+```cpp
 // função que verifica quem ganhou e retorna um valor booleano
 bool verificarVitoria(const Jogodavelha& Jogodavelha){
 char(*t)[3] = (char(*)[3]) Jogodavelha.tabuleiro; // comando que reiterpreta o tabuleiro como uma matriz 3x3
@@ -87,7 +87,7 @@ bool verificarEmpate(const Jogodavelha& Jogodavelha) {
 Função que verifica quem ganhou e se houve empate na partida.
 
 ## Armazenamento de Pontuação
-```ruby
+```cpp
 void guardapontuacao(const Jogodavelha& Jogodavelha) {
     ofstream arquivo("pontuacoes.txt");//ofstream é a classe que permite escrever em arquivos 
     //ela faz parte da biblioteca fstream, foi por conta disso que incluímos a biblioteca fstream
@@ -101,7 +101,7 @@ void guardapontuacao(const Jogodavelha& Jogodavelha) {
 Procedimento para criar o arquivo de armazenamento da pontuação.
 
 ## Rodando o Jogo
-```ruby
+```cpp
 void jogujogu(Jogodavelha& Jogodavelha) {
 int escolha; // posição que o jogador escolhe no tabuleito
     while (!verificarVitoria(Jogodavelha) && !verificarEmpate(Jogodavelha)) { //enquanto não tem vencedor nem empate
@@ -141,7 +141,10 @@ int main() {
 ```
 
 # 📽️ Vídeo do Projeto
-Caso queira acessar o link do vídeo [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
+Para acessar o link do vídeo [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
+# 📊 Slide do projeto
+Para acessar os slide [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
-
+# 📌 Conclusão
+Neste projeto podemos colocar em prática tudo o que vimos durante o semestre nas aulas de Computação para Engenharia na Universidade de Brasília, além de entender como utilizar as ferramentas para otimizar os códigos e deixá-los mais eficientes. O código apresenta os conceitos de vetores, funções, arquvios e manipulação de entradas/saídas em C++.
