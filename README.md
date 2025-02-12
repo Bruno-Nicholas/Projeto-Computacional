@@ -1,5 +1,5 @@
 # 👨‍💻 Projeto Computacional
-Projeto Computacional - Computação para Engenharia - Turma 01 - Professor Wesin Alves
+**Projeto Computacional - Computação para Engenharia - Turma 01 - Professor Wesin Alves**
 
 # 📖 Membros do Grupo
 ➣ ***Alex*** (
@@ -17,12 +17,12 @@ Este é um código programado em linguagem C++ tendo como objetivo **simular uma
 
 # 🔥 Códigos Importantes
 
-## Códigos Iniciais
-+ `#include <iostream>` - Biblioteca padrão do C++
-+ `#include <fstream>` - Biblioteca para uso de arquivos
-+ `using namespace std;` - Retirando a necessidade de incluir std::
+## Códigos Iniciais:
++ `#include <iostream>` - Biblioteca padrão do C++.
++ `#include <fstream>` - Biblioteca para uso de arquivos.
++ `using namespace std;` - Retirando a necessidade de incluir std:: em todos os linhas.
 
-## Infromações do Jogo
+## Infromações do Jogo:
 ```cpp
 struct Jogodavelha {
 char* tabuleiro; //ponteiro
@@ -31,9 +31,9 @@ int pontuacaoDoX; // pontuação do jogador X
 int pontuacaoDoO; // inicialização do O
 };
 ```
-Struct criada para armazenas as infromações do jogo.
+Struct criada para **armazenar as infromações do jogo**.
 
-## Inicializar o Jogo
+## Inicializar o Jogo:
 ```cpp
 void kumessarujogu(Jogodavelha& Jogodavelha) {
     Jogodavelha.tabuleiro = new char[9]{'1','2','3','4','5','6','7','8','9'};// alocação de memória para o tabuleiro
@@ -47,9 +47,9 @@ void liberarJogo(Jogodavelha& Jogodavelha) {
     delete[] Jogodavelha.tabuleiro; 
 }
 ```
-Função para inicializar o jogo e procedimento que libera a memória alocada.
+Função para **inicializar o jogo** e procedimento que **libera a memória alocada**.
 
-## Imprimindo o Tabuleiro
+## Imprimir o Tabuleiro:
 ```cpp
 void printabuleiro(const Jogodavelha& Jogodavelha) {
     for (int i = 0; i < 9; ++i) 
@@ -62,9 +62,9 @@ void printabuleiro(const Jogodavelha& Jogodavelha) {
     } // tem que ser múiplo de 3 pois o tabuleiro é de 3x3, então se for multiplo de 3 é pq está no final da linha por isso imprimimos "endl";
 }
 ```
-Procedimento que imprime o tabuleiro do jogo.
+Procedimento que **imprime o tabuleiro do jogo**.
 
-## Verificando que ganhou ou se houve empate
+## Verificando Quem Ganhou ou Teve Empate:
 ```cpp
 // função que verifica quem ganhou e retorna um valor booleano
 bool verificarVitoria(const Jogodavelha& Jogodavelha){
@@ -84,9 +84,9 @@ bool verificarEmpate(const Jogodavelha& Jogodavelha) {
     return true; //não tem espaço vazio, então é empate
 }
 ```
-Função que verifica quem ganhou e se houve empate na partida.
+Função que **verifica quem ganhou e se houve empate na partida**.
 
-## Armazenamento de Pontuação
+## Armazenamento de Pontuação:
 ```cpp
 void guardapontuacao(const Jogodavelha& Jogodavelha) {
     ofstream arquivo("pontuacoes.txt");//ofstream é a classe que permite escrever em arquivos 
@@ -98,9 +98,9 @@ void guardapontuacao(const Jogodavelha& Jogodavelha) {
     // ela não acumula pontuações, apenas registra a vitoria(1), e a derrota(0). 
 }
 ```
-Procedimento para criar o arquivo de armazenamento da pontuação.
+Procedimento para **criar o arquivo de armazenamento da pontuação**.
 
-## Rodando o Jogo
+## Rodando o Jogo:
 ```cpp
 void jogujogu(Jogodavelha& Jogodavelha) {
 int escolha; // posição que o jogador escolhe no tabuleito
@@ -127,6 +127,7 @@ int escolha; // posição que o jogador escolhe no tabuleito
     guardapontuacao(Jogodavelha); // chama a função que guarda a pontuação
 }
 ```
+Procedimento que **inicializa o jogo**.
 
 ## Função Principal
 ```cpp
@@ -139,12 +140,13 @@ int main() {
     return 0;
 }
 ```
+Função principal que **junta todas as funções procedimentos**.
 
 # 📽️ Vídeo do Projeto
 Para acessar o link do vídeo [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
-# 📊 Slide do projeto
+# 📊 Slides do projeto
 Para acessar os slide [Clique aqui](https://drive.google.com/file/d/161DAK6v04em11ZzwPwohojdMt7rHPuq-/view?usp=drive_link)
 
 # 📌 Conclusão
-Neste projeto podemos colocar em prática tudo o que vimos durante o semestre nas aulas de Computação para Engenharia na Universidade de Brasília, além de entender como utilizar as ferramentas para otimizar os códigos e deixá-los mais eficientes. O código apresenta os conceitos de vetores, funções, arquvios e manipulação de entradas/saídas em C++.
+Neste projeto podemos **colocar em prática** tudo o que vimos durante o semestre nas aulas de Computação para Engenharia na Universidade de Brasília, além de entender como utilizar as ferramentas para otimizar os códigos e deixá-los mais eficientes. O código apresenta os conceitos de vetores, funções, arquvios e manipulação de entradas/saídas em C++.
