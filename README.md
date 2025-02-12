@@ -24,12 +24,12 @@ Este é um código programado em linguagem C++ tendo como objetivo simular uma p
 
 ## Infromações do jogo
 ```
-struct Jogodavelha {
+`struct Jogodavelha {
 char* tabuleiro; //ponteiro
 char rodada; // X ou O
 int pontuacaoDoX; // pontuação do jogador X
 int pontuacaoDoO; // inicialização do O
-};
+};`
 ```
 Struct criada para armazenas as infromações do jogo.
 
